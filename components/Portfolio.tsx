@@ -22,14 +22,16 @@ import {
   });
   
   export default function ProjectPage() {
-    return (
-      <Box p={4}>
+   //minHeight={"md"}  
+   return (
+      <Box p={4}  minHeight={"m"}>
         <Stack spacing={4} as={Container} maxW={'3xl'} textAlign={'center'}>
           <Heading fontSize={'3xl'}> Muhammad Junaid Alam</Heading>
           <Text color={'gray.600'} fontSize={'xl'}>
           Hello, world! I am Full Stack Web Application Developer.
           I create responsive Web Apps using HTML, CSS, Chakra-UI, React, NodeJS and GraphQL.
           </Text>
+
         </Stack>
       </Box>
     );
