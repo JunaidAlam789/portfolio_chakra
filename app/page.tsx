@@ -12,24 +12,50 @@ import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
 import Portfolio from 'components/Portfolio'
 import ProjectCard from 'components/ProjectCard'
 //import { Button } from '@chakra-ui/button'
+          // flex={1}
+          // flexDirection="row"
+          // justifyContent="center"
+          // alignItems="center"
+          // p={1}
+          // pt={2}
+
 export default function Home() {
   return (
     <div>
      
  
       <Portfolio/>
-      <HStack>
+      <HStack 
+         
+          
+          justifyContent="center"
+          
+         >
       <ProjectCard/>
       <ProjectCard/>
+      
       </HStack>
-      <HStack>
+      <HStack 
+         
+          
+          justifyContent="center"
+          
+         >
       <ProjectCard/>
       <ProjectCard/>
+      
       </HStack>
-      <HStack>
+      <HStack 
+         
+          
+          justifyContent="center"
+          
+         >
       <ProjectCard/>
       <ProjectCard/>
+      
       </HStack>
+      
 
     </div>
   )
