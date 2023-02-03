@@ -44,13 +44,13 @@ import {
               Fabric Craft
             </Heading>
             <Text fontWeight={600} color={'gray.500'} size="sm" mb={4}>
-            https://fabriccrafts.netlify.app/
+            
             </Text>
             <Text
               textAlign={'center'}
               color={useColorModeValue('gray.700', 'gray.400')}
               px={3}>
-              A React App
+              HTML Web Site
               
              
             </Text>
@@ -72,7 +72,7 @@ import {
                 _focus={{
                   bg: 'gray.200',
                 }}>
-              <Link href={'https://fabriccrafts.netlify.app/'} color={'blue.400'}>
+              <Link href={'https://math-tables.netlify.app/'} color={'blue.400'}>
                 View
               </Link>
               </Button>

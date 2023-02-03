@@ -1,5 +1,5 @@
 "use client"
-import tables from "../images/Table2.jpg"
+import tables from "../images/Construction.jpg"
 import {
     Badge,
     Button,
@@ -41,10 +41,10 @@ import {
             p={1}
             pt={2}>
             <Heading fontSize={'2xl'} fontFamily={'body'}>
-              Math Tables App
+              Construction
             </Heading>
             <Text fontWeight={600} color={'gray.500'} size="sm" mb={4}>
-             https://math-tables.netlify.app/
+             
             </Text>
             <Text
               textAlign={'center'}

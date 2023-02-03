@@ -19,12 +19,16 @@ export default function RootLayout({
       <head />
       <body>
         
-        <ChakraProvider>
+      <ChakraProvider>
           <NavBar/>
+          </ChakraProvider>
+          <ChakraProvider>
           {children}
-          
+          </ChakraProvider>
+          <ChakraProvider>  
           <Footer/>
-        </ChakraProvider>
+          </ChakraProvider>
+
         
         </body>
     </html>
