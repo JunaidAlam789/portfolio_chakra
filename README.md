@@ -1,6 +1,8 @@
 https://chakra-templates.dev/
 https://www.youtube.com/watch?v=7dSOsUNTxJE
-
+        
+🚀https://emojipedia.org/
+☰ https://unicode-table.com/
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -46,4 +48,19 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
         npm i @chakra-ui/react @emotion/react@^11 @emotion/styled@^11 framer-motion@^6
 
-        npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+        npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion @chakra-ui/icons react-icons
+
+        npm i react-icons
+
+        
+🚀https://emojipedia.org/
+☰ https://unicode-table.com/
+https://chakra-templates.dev/
+https://www.youtube.com/watch?v=7dSOsUNTxJE
+
+import { ChakraProvider } from "@chakra-ui/react"
+<body>       
+<ChakraProvider>
+{children}
+</ChakraProvider>
+</body>

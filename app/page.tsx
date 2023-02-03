@@ -11,6 +11,7 @@ import {Box, Stack,HStack} from '@chakra-ui/react'
 import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
 import Portfolio from 'components/Portfolio'
 import ProjectCard from 'components/ProjectCard'
+import Project_Fabrics from 'components/Project_Fabrics'
 //import { Button } from '@chakra-ui/button'
           // flex={1}
           // flexDirection="row"
@@ -32,7 +33,7 @@ export default function Home() {
           
          >
       <ProjectCard/>
-      <ProjectCard/>
+      <Project_Fabrics/>
       
       </HStack>
       <HStack 
