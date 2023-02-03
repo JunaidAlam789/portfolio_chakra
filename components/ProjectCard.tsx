@@ -50,7 +50,7 @@ import {
               textAlign={'center'}
               color={useColorModeValue('gray.700', 'gray.400')}
               px={3}>
-              A React App
+              HTML Web Site
               
              
             </Text>
